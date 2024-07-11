@@ -1,5 +1,9 @@
 void main() {
   //variable is a container that stores a value of different different data type and we can change them program execution
+  /*
+  synatax
+  <data type> <varible name> = <value> ;
+   */
   int a = 10;
   int b = 20;
 
