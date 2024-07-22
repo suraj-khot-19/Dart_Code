@@ -1,0 +1,30 @@
+void main() {
+  //swap number using third variable
+  int a = 10;
+  int b = 20;
+
+  print("a $a"); //10
+  print("b $b"); //20
+  //logic
+  int temp = a;
+  a = b;
+  b = temp;
+  print("a $a"); //20
+  print("b $b"); //10
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  //swap numbers without using third variable
+  int x = 60;
+  int y = 80;
+
+  print("x $x"); //60
+  print("y $y"); //80
+  //logic
+  int sum = x + y;
+  x = sum - x;
+  y = sum - y;
+  print("x $x"); //80
+  print("y $y"); //60
+}
